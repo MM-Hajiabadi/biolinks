@@ -1,16 +1,14 @@
-<!--Here is mostly like of everything you need to customize based on how do you like, you can also modify the particles by modify the app.js.-->
-<!--Created by Mihaidev-Cloud 2023 :3-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name Here</title>
-    <meta property="og:title" content="Your Name's Links" />
-    <meta property="og:site_name" content="yourdomain.com" />
+    <title>Ryan Heida Links</title>
+    <meta property="og:title" content="Ryan Heida's Links" />
+    <meta property="og:site_name" content="links.ryanheida.com" />
     <meta
       property="og:description"
-      content="A list of Your Name's most important links."
+      content="A list of Ryan Heida's most important links."
     />
     <link
       rel="stylesheet"
@@ -26,45 +24,83 @@
     <div class="box p-24 flex flex-col justify-center items-center">
       <img
         id="userPhoto"
-        class="w-32 rounded-xl border"
-        src="images/profile-picture.webp"
-        alt="Your Name's Photo"
+        class="w-100 rounded-xl"
+        src="images/ProfilePicture.png"
+        alt="Ryan Heida's Photo"
       />
       <div class="boxt-text flex flex-col justify-center items-center mt-8">
         <!--Title and paragraph-->
-        <h1 class="">Your Name</h1>
-        <p>Front-end Webdeveloper</p>
+        <h1 class="text-3xl">Ryan Heida</h1>
+        <p>Manager / Full Stack Developer</p>
         <!--Socials for icons please refer to icons.getbootstrap.com for icons.-->
         <div class="socials space-x-2 text-2xl mt-4">
+          <!-- LinkedIn -->
           <button id="social">
-            <a id="sociallink" href=""><i class="bi bi-instagram"></i></a>
-          </button>
-          <button id="social">
-            <a id="sociallink" href=""><i class="bi bi-github"></i></a>
-          </button>
-          <button id="social">
-            <a id="sociallink" href=""><i class="bi bi-telegram"></i></a>
-          </button>
-        </div>
-        <!-- You can add many links you want but don't forget to change grid-cols number in exact number of links you have!-->
-        <div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3">
-          <button id="btnglass">
-            <a class="link" href="https://domain.com/" target="_blank"
-              ><i class="bi bi-link-45deg"></i> First Link</a
-            >
-          </button>
-          <button id="btnglass">
-            <a class="link" href="https://domain.com/" target="_blank"
-              ><i class="bi bi-link-45deg"></i> Web
+            <a id="sociallink" href="https://www.linkedin.com/in/ryan-heida">
+              <i class="bi bi-linkedin" style="color: #0077b5"></i>
             </a>
           </button>
+
+          <!-- GitHub -->
+          <button id="social">
+            <a id="sociallink" href="https://www.github.com/Ryan-PG">
+              <i class="bi bi-github" style="color: #333"></i>
+            </a>
+          </button>
+
+          <!-- Instagram -->
+          <button id="social">
+            <a id="sociallink" href="https://www.instagram.com/mrhabib_heidari">
+              <i class="bi bi-instagram" style="color: #c13584"></i>
+            </a>
+          </button>
+
+          <!-- Telegram -->
+          <button id="social">
+            <a id="sociallink" href="https://t.me/HHCPrDv2025">
+              <i class="bi bi-telegram" style="color: #0088cc"></i>
+            </a>
+          </button>
+
+          <!-- X -->
+          <button id="social">
+            <a id="sociallink" href="https://x.com/Ryan_Heida_">
+              <i class="bi bi-x" style="color: #1da1f2"></i>
+            </a>
+          </button>
+        </div>
+
+        <!-- New container for buttons to make them more organized -->
+        <div id="link-buttons">
           <button id="btnglass">
-            <a
-              class="link"
-              href="mailto:youremailaddres@email.com"
-              target="_blank"
-              ><i class="bi bi-envelope"></i> Email me</a
-            >
+            <a class="link" href="https://www.ryanheida.com" target="_blank">
+              <span>Heida Website</span>
+              <i class="bi bi-globe2 text-blue-500"></i>
+              <!-- Changed to blue -->
+            </a>
+          </button>
+
+          <button id="btnglass">
+            <a class="link" href="https://resume.ryanheida.com" target="_blank">
+              <span>My Resume</span>
+              <i class="bi bi-file-text text-gray-500"></i>
+              <!-- Changed to gray -->
+            </a>
+          </button>
+
+          <button id="btnglass">
+            <a class="link" href="#" target="_blank">
+              <span>YouTube</span>
+              <i class="bi bi-youtube text-red-700"></i>
+            </a>
+          </button>
+
+          <button id="btnglass">
+            <a class="link" href="mailto:heidarih313@email.com" target="_blank">
+              <span>Email me</span>
+              <i class="bi bi-envelope text-blue-500"></i>
+              <!-- Changed to blue -->
+            </a>
           </button>
         </div>
       </div>
