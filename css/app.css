@@ -165,3 +165,31 @@ body {
   width: 100%;
   align-items: center;
 }
+
+/* Add styles for mobile devices */
+@media (max-width: 768px) {
+  .box {
+    padding: 12px; /* Reduce padding for mobile */
+  }
+  img#userPhoto {
+    width: 80%; /* Make image responsive */
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 2rem; /* Adjust heading size on mobile */
+  }
+  .socials i {
+    font-size: 1.5rem; /* Reduce social icons size */
+  }
+  button#btnglass a {
+    font-size: 0.9rem; /* Reduce button text size */
+  }
+}
+
+/* Reduce button padding and margin for mobile */
+button#btnglass {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}

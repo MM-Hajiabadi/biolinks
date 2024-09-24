@@ -16,11 +16,11 @@
     />
     <link rel="stylesheet" href="css/app.css" />
     <script src="js/console.js"></script>
-    <script async defer src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <meta name="theme-color" content="var(--bgColor)" />
   </head>
   <body>
-    <!--Page Content, Don't forget to modify!-->
+    <!-- Page Content -->
     <div class="box p-24 flex flex-col justify-center items-center">
       <img
         id="userPhoto"
@@ -29,11 +29,12 @@
         alt="Ryan Heida's Photo"
       />
       <div class="boxt-text flex flex-col justify-center items-center mt-8">
-        <!--Title and paragraph-->
-        <h1 class="text-3xl">Ryan Heida</h1>
-        <p>Manager / Full Stack Developer</p>
-        <!--Socials for icons please refer to icons.getbootstrap.com for icons.-->
-        <div class="socials space-x-2 text-2xl mt-4">
+        <!-- Title and paragraph -->
+        <h1 class="text-3xl text-center">Ryan Heida</h1>
+        <p class="text-center">Manager / Full Stack Developer</p>
+
+        <!-- Socials for icons -->
+        <div class="socials space-x-2 text-2xl mt-4 flex justify-center">
           <!-- LinkedIn -->
           <button id="social">
             <a id="sociallink" href="https://www.linkedin.com/in/ryan-heida">
@@ -70,41 +71,54 @@
           </button>
         </div>
 
-        <!-- New container for buttons to make them more organized -->
-        <div id="link-buttons">
-          <button id="btnglass">
-            <a class="link" href="https://www.ryanheida.com" target="_blank">
+        <!-- Link Buttons -->
+        <div
+          id="link-buttons"
+          class="mt-4 space-y-4 flex flex-col items-center"
+        >
+          <button id="btnglass" class="w-full max-w-xs p-2">
+            <a
+              class="link flex justify-between items-center w-full"
+              href="https://www.ryanheida.com"
+              target="_blank"
+            >
               <span>Heida Website</span>
               <i class="bi bi-globe2 text-blue-500"></i>
-              <!-- Changed to blue -->
             </a>
           </button>
 
-          <button id="btnglass">
-            <a class="link" href="https://resume.ryanheida.com" target="_blank">
+          <button id="btnglass" class="w-full max-w-xs p-2">
+            <a
+              class="link flex justify-between items-center w-full"
+              href="https://resume.ryanheida.com"
+              target="_blank"
+            >
               <span>My Resume</span>
               <i class="bi bi-file-text text-gray-500"></i>
-              <!-- Changed to gray -->
             </a>
           </button>
 
-          <button id="btnglass">
-            <a class="link" href="#" target="_blank">
+          <button id="btnglass" class="w-full max-w-xs p-2">
+            <a class="link flex justify-between items-center w-full" href="#">
               <span>YouTube</span>
               <i class="bi bi-youtube text-red-700"></i>
             </a>
           </button>
 
-          <button id="btnglass">
-            <a class="link" href="mailto:heidarih313@email.com" target="_blank">
+          <button id="btnglass" class="w-full max-w-xs p-2">
+            <a
+              class="link flex justify-between items-center w-full"
+              href="mailto:heidarih313@email.com"
+              target="_blank"
+            >
               <span>Email me</span>
               <i class="bi bi-envelope text-blue-500"></i>
-              <!-- Changed to blue -->
             </a>
           </button>
         </div>
       </div>
     </div>
+
     <div id="particles-js"></div>
 
     <script src="js/particles.js"></script>
