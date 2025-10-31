@@ -31,6 +31,13 @@ canvas {
   visibility: visible;
 }
 
+/*
+#particles-js,
+canvas {
+  display: none !important;
+}
+*/
+
 html::-webkit-scrollbar {
   display: none;
 }
@@ -157,8 +164,8 @@ body {
     padding: 12px; /* Reduce padding for mobile */
   }
   img#userPhoto {
-    width: 80%; /* Make image responsive */
-    max-width: 300px;
+    width: 10%; /* Make image responsive */
+    max-width: 200px;
   }
   h1 {
     font-size: 2rem; /* Adjust heading size on mobile */
