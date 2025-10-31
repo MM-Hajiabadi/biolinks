@@ -164,8 +164,8 @@ body {
     padding: 12px; /* Reduce padding for mobile */
   }
   img#userPhoto {
-    width: 80%; /* Make image responsive */
-    max-width: 350px;
+    width: 60%; /* Make image responsive */
+   
   }
   h1 {
     font-size: 2rem; /* Adjust heading size on mobile */
